@@ -1,5 +1,5 @@
 let question = prompt('How many people are there in the club?')
-if(question <10 && question >0) {
+if(question <10 && question >=0) {
 
     let second_question = prompt('What is your name?').toLowerCase().trim()
     if(second_question.charAt(0) === 'a') {
